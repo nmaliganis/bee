@@ -2,7 +2,9 @@ package com.mibeez.hubBe.controllers;
 
 import com.pi4j.io.gpio.*;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class HwController {
 
     private static GpioPinDigitalOutput pin;
